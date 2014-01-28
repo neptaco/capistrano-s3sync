@@ -26,7 +26,7 @@ capistrano task:
 ### Capistrano Variables
 
 |variable_name|description|
-|:---
+|-----|------|
 |aws_access_key_id|AWS Access Key|
 |aws_access_secret_key|AWS Secret Key
 |s3sync_endpoint|S3 Endpoint URL|
