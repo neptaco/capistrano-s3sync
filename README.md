@@ -18,7 +18,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+capistrano task:
+
+	cap staging s3:sync
+
+
+### Capistrano Variables
+
+|variable_name|description|
+|:---
+|aws_access_key_id|AWS Access Key|
+|aws_access_secret_key|AWS Secret Key
+|s3sync_endpoint|S3 Endpoint URL|
+|s3sync_src|S3 Source
+|s3sync_dst|S3 Destination
+
 
 ## Contributing
 
