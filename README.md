@@ -20,8 +20,16 @@ Or install it yourself as:
 
 capistrano task:
 
-	cap staging s3:sync
+    $ cap staging s3:sync
 
+```ruby
+set :aws_access_key_id, '[aws access key]'
+set :aws_access_secret_key, '[aws secret key]'
+set :s3sync_endpoint, 's3-ap-northeast-1.amazonaws.com'
+
+set :s3sync_src, "[src dir]"
+set :s3sync_dst, "[bucket name]:[dst dir]"
+```
 
 ### Capistrano Variables
 
