@@ -1160,11 +1160,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.3)
+  bundler (>= 2.2.10)
   capistrano (>= 3.0.0)
   capistrano-s3sync!
   rake
   s3sync!
 
 BUNDLED WITH
-   1.17.2
+   2.2.26
